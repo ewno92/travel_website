@@ -1,11 +1,8 @@
 import HeroSection from "../components/HeroSection/HeroSection";
-
-import React from "react";
-
+import "./Home.css";
 const Home = () => {
   return (
-    <div>
-      <h1>this is ome</h1>
+    <div id="Home">
       <HeroSection />
     </div>
   );
