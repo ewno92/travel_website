@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(26, 26, 26) 100%);
   /* background-color: gray; */
   height: 85px;
   display: flex;

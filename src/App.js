@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Button } from "@material-ui/core";
 // import { Button } from "./components/Button/Button";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Services" component={Services} />
           <Route path="/Product" component={Product} />
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
